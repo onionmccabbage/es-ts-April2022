@@ -6,7 +6,8 @@
 { // ooh a block of code - a scope (ES6)
     // x = 'Ethel' // typescript complains  -we should use var or let or const
     // let y:number = false
-    let z:boolean = true
+    let z = true // ts will infer this is a boolean
+    // z = 'oops'
     var n:string = 'Grace'
     let name:string = 'Hopper'
     const fname = 'lily' // a constant cannot be mutated
