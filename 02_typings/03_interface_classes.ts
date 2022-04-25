@@ -45,7 +45,7 @@ interface Photo { // intefaces are the recommended way to declare custom types
     url:string
     thumbnailUrl:string
     ooblywoobly?:any // an optional member
-    pretty?:()=>{} // an optional method
+    pretty?:(x:boolean, y:{})=>{} // an optional method
 }
 // here is a class we will use
 class Snap implements Photo {
@@ -68,7 +68,7 @@ class Snap implements Photo {
 
 // using super
 class LoRes extends Snap {
-    constructor(snap:Photo){
+    constructor(snap:Photo){ // here our interface is used as a data type
         super(snap) // call the parent class constructor
         this.url = this.thumbnailUrl // only use low resolution images here
     }

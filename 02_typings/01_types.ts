@@ -22,7 +22,6 @@
     boxType++
     boxType++
     boxType++
-
     console.log(boxType)
 }
 

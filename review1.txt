@@ -1,0 +1,34 @@
+Review Exercise 1 about 60 mins
+=================
+This is a chance to work with TypeScript/ECMAScript in a mini project.
+Tackle this however you like, the point is for you to explore using the tools
+You will load up some data into a type-safe structure, then (optionaly) sort the data and show slices of it
+You could make programatic choices (run in node) or ask the user in a web page (in a browser)
+The JSON data is in the gist here: 
+  https://gist.github.com/onionmccabbage/16419005013c0a208b9a71c810004093
+
+Details
+-------
+In a new folder, create a .ts file for your code
+(You may wish to also make an html file to visualize your work)
+
+Get a copy of 'todos' array and make sure it is scoped to your code
+You will need a tsconfig.json - copy the existing one
+
+Decide if you will put everything in one module or several (with imports)
+Write an interface to match the types of a 'todo' member
+Decide how to create 'job' instances, which are derived from one 'todo' member
+
+Add a method to nicely output a 'todo' data member
+
+Optional
+--------
+Choose a data field to sort the entire 'todos' data set (e.g. by 'userId' or 'completed')
+Decide on a strategy to show todos for one user, then just the un-completed jobs for a user
+Try consuming 'photos.json' and showing a filtered and/or sorted subset
+
+In the interface, allow an optional method to validate data members
+implement this method to ensure no data member can be empty 
+
+Consider how you could enforce the 'completed' state to be one of:
+  true, false, archived, pending, deleted 
