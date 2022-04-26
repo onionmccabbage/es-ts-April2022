@@ -9,7 +9,7 @@
         profile_image:string
     }
 
-    // a method to fetch data
+    // a method to fetch data                           argubly leave out the '| string' so we get decent code hinting later
     const fetchEmployees = async ():Promise<Array<Employee> | string> =>{
         const API = 'https://dummy.restapiexample.com/api/v1/employees'
         try { // async await enmsures we wait fro a Promise to be returned

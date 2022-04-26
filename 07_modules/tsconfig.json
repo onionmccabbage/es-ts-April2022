@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "lib": ["ES6", "DOM"],
+        "target": "ES2021",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true
+    }
+}
