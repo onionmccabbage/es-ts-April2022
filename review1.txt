@@ -1,5 +1,5 @@
-Review Exercise 1 about 60 mins
-=================
+Review Exercise 1 about 60 mins WE ARE ON TEA BREAK UNTIL 3:15
+================= see https://gist.github.com/onionmccabbage/e77c59adb07cea5aad40d8b96c631443
 This is a chance to work with TypeScript/ECMAScript in a mini project.
 Tackle this however you like, the point is for you to explore using the tools
 You will load up some data into a type-safe structure, then (optionaly) sort the data and show slices of it
@@ -19,7 +19,7 @@ Decide if you will put everything in one module or several (with imports)
 Write an interface to match the types of a 'todo' member
 Decide how to create 'job' instances, which are derived from one 'todo' member
 
-Add a method to nicely output a 'todo' data member
+Add a method to nicely output a 'todo' data member (require method in interface)
 
 Optional
 --------

@@ -1,0 +1,61 @@
+ECMAScript and Typescript
+=========================
+
+  Toby Dussek - April 25-27
+
+9:30  start
+11:00 coffee
+12:30 lunch
+3:00  tea
+4:30  end
+
+Monday
+> welcome
+> choose a folder to work in: install NodeJS/npm and install typescript globaly
+  - npm install -g typescript
+  - npm install -g ts-node
+  - may need to npm install types for (e.g.) @angular or @react or custom...
+- Modern ECMAScript
+> Typescript why and how
+> default ts output is ES3 we can --target es2020 (or relevant version)
+- tidy way to see html pages - liveserver
+- support for older browsers etc.
+> number data type - whats new
+> classes
+> question - what about optional bits of interfaces etc. - ?
+> question using super()
+- ways to run and automate
+> begin looking at data sources: JSON etc
+> try a lab exercise
+
+Tuesday
+- where we're at
+- many ways to write functions
+> generics
+- descructuring
+q - descruct to prev let item
+q - can we do generators using modern function syntax
+- is TS mainly just for type safety?
+- types or interface (or hybrid)
+- when/why you would use an Enum, Literal, Type, Interface 
+  (how to choose one over another depending on what you are doing)
+- https://webpack.js.org/guides/typescript/
+- conventions, best pratice, preference...
+> type guards
+- more on tsconfig
+- npm init
+- ReactJS
+
+Wednesday
+- interface, class, implements, extends....
+- more on classes
+- more on modules and import
+- ways to write functions
+- Observables and RxJS
+- Array<T> and T[] are identical - it's a style choice
+    - we MUST use Array<T> when being generic in functions
+- Real example: back-end response has a structure, inc. a data array object[]
+    e.g. 'playableItem' has LOADS of properties 
+    - do we need to type the whole structure?
+- final lab
+- end of course feedback
