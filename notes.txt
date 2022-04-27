@@ -29,12 +29,12 @@ Monday
 > try a lab exercise
 
 Tuesday
-- where we're at
-- many ways to write functions
+> where we're at
+> many ways to write functions
 > generics
-- descructuring
-q - descruct to prev let item
-q - can we do generators using modern function syntax
+> descructuring
+> descruct to prev let item
+> can we do generators using modern function syntax NO!!!
 - is TS mainly just for type safety?
 - types or interface (or hybrid)
 - when/why you would use an Enum, Literal, Type, Interface 
@@ -42,15 +42,15 @@ q - can we do generators using modern function syntax
 - https://webpack.js.org/guides/typescript/
 - conventions, best pratice, preference...
 > type guards
-- more on tsconfig
-- npm init
-- ReactJS
+> more on tsconfig
+> npm init
+> ReactJS
 
 Wednesday
 - interface, class, implements, extends....
 - more on classes
 - more on modules and import
-- ways to write functions
+> ways to write functions
 - Observables and RxJS
 - Array<T> and T[] are identical - it's a style choice
     - we MUST use Array<T> when being generic in functions
@@ -59,3 +59,6 @@ Wednesday
     - do we need to type the whole structure?
 - final lab
 - end of course feedback
+  https://frameworktraining.typeform.com/to/OMVe7uso
+
+ 
