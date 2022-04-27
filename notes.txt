@@ -15,16 +15,16 @@ Monday
   - npm install -g typescript
   - npm install -g ts-node
   - may need to npm install types for (e.g.) @angular or @react or custom...
-- Modern ECMAScript
+> Modern ECMAScript
 > Typescript why and how
 > default ts output is ES3 we can --target es2020 (or relevant version)
-- tidy way to see html pages - liveserver
+> tidy way to see html pages - liveserver
 - support for older browsers etc.
 > number data type - whats new
 > classes
 > question - what about optional bits of interfaces etc. - ?
 > question using super()
-- ways to run and automate
+> ways to run and automate
 > begin looking at data sources: JSON etc
 > try a lab exercise
 
@@ -57,7 +57,10 @@ Wednesday
 - Real example: back-end response has a structure, inc. a data array object[]
     e.g. 'playableItem' has LOADS of properties 
     - do we need to type the whole structure?
-- final lab
+- final lab - see https://github.com/gdejanovic/star-wars-api?ref=reactjsexample.com
+
+- where to go next https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
+
 - end of course feedback
   https://frameworktraining.typeform.com/to/OMVe7uso
 
